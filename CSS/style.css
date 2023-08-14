@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Readex+Pro:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    scroll-behavior: 53px;
+}
+
+/********navbar********/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.navlink{
+    float: left;
+    padding: 1rem;
+    text-decoration: none;
+    Font-size: 15px;
+    Font-weight: 400;
+    Line-height: 27px;
+}
+
+.navlink:hover{
+    color: #000!important;
+    background-color: #ccc!important;
+}
+
+/********header********/
+header{
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../IMAGES/mac.jpg");
+    position: relative;
+}
+
+.div{
+    margin: 1rem 4rem;
+    top: 30%;
+    position: absolute;
+}
+
+.div1{
+    margin: 1rem 4rem;
+    bottom: 1%;
+    position: absolute;
+}
+
+.div1 a{
+    text-decoration: none;
+    Font-size: 18px;
+    Font-weight: 400;
+    Line-height: 18px;
+    color: rgb(117, 117, 117)
+}
+
+.header-title{
+    color: white;
+    Font-size: 64px;
+    Font-weight: 400;
+    Line-height: 115.2px;
+}
+
+.header-text{
+    padding: 1rem 0;
+    color: white;
+    Font-size: 18px;
+    Font-weight: 400;
+    Line-height: 32.4px;
+}
+
+.header-button{
+    color: #000!important;
+    background-color: #fff!important;
+    padding: 12px 24px!important;
+    opacity: 0.60;
+    Font-size: 18px;
+    Font-weight: 400;
+    Line-height: 32.4px;
+    cursor: pointer;
+}
+
+.header-button:hover{
+    opacity: 1;
+}
+
+/********about********/
+.about{
+    padding: 3rem;
+    text-align: center;
+}
+
+.about-title{
+    padding: 1rem;
+    Font-size: 24px;
+    Font-weight: 400;
+    Line-height: 43.2px;
+}
+
+.about-text{
+    padding: 1rem;
+    Font-size: 18px;
+    Font-weight: 400;
+    Line-height: 32.4px;
+}
+
+.icons{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon{
+    width: 23%;
+    padding: 1rem;
+}
+
+.icon i{
+    Font-size: 64px;
+    Font-weight: 400;
+    Line-height: 64px;
+}
+
+.icon-title{
+    Font-size: 18px;
+    Font-weight: 400;
+    Line-height: 32.4px;
+}
+/********navbar********/
+/********navbar********/
+/********navbar********/
+/********navbar********/
