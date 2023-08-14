@@ -12,9 +12,10 @@
   <body>
 
     <!--------navbar-------->
-    <nav class="navbar">
+    <nav class="navbar slide-right">
         <a class="navlink" href="#">LOGO</a>
         <div class="link-container">
+            <i class="fa-solid fa-bars" onclick="show()"></i>
             <a class="navlink" href="#about">ABOUT</a>
             <a class="navlink" href="#team"><i class="fa-solid fa-user"></i> TEAM</a>
             <a class="navlink" href="#work"><i class="fa-solid fa-chart-bar"></i> WORK</a>
@@ -22,6 +23,14 @@
             <a class="navlink" href="#contact"><i class="fa-solid fa-envelope"></i> CONTACT</a>
         </div>
     </nav>
+    <div class="absoulote" id="absoulote">
+        <a onclick="hide()" class="navlink" href="#about">Close <i class="fa-solid fa-xmark"></i></a><br>
+        <a onclick="hide()" class="navlink" href="#about">ABOUT</a><br>
+        <a onclick="hide()" class="navlink" href="#team"> TEAM</a><br>
+        <a onclick="hide()" class="navlink" href="#work"> WORK</a><br>
+        <a onclick="hide()" class="navlink" href="#pricing"> PRICING</a><br>
+        <a onclick="hide()" class="navlink" href="#contact"> CONTACT</a><br>
+    </div>
 
     <!--------header-------->
     <header>
@@ -219,7 +228,7 @@
         </div>
     </div>
 
-    <img src="IMAGES/map.jpg" width="98%" style="padding: 1rem;filter: grayscale(75%)" alt="">
+    <img src="IMAGES/map.jpg" width="98%" class="imgg" style="padding: 1rem;filter: grayscale(75%)" alt="">
 
     <!--------footer-------->
         <footer class="w3-center w3-black w3-padding-64">
