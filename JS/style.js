@@ -1,10 +1,10 @@
 var x = document.getElementById("absoulote");
 
 function show(){
-    if (x.style.display=="none"){
-        x.style.display="flex !important";
-    } else {
+    if (x.style.display=="flex"){
         x.style.display="none";
+    } else {
+        x.style.display="flex";
     }
 }
 
