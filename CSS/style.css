@@ -474,4 +474,13 @@ footer div{
   .header-button{
     margin-top: 16px!important;
   }
+  .header-button{
+    Font-size: 15px;
+}
+    .header-title {
+    Font-size: 30px;
+}
+    .div1 {
+    margin: 1rem 1rem;
+}
 }
